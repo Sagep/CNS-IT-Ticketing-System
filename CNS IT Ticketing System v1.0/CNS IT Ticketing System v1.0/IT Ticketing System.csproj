@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29B9BE87-B650-4089-B6A5-0F55980D0C3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CNS_IT_Ticketing_System_v1._0</RootNamespace>
+    <AssemblyName>CNS IT Ticketing System2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <HockeyAppResourceId>d3e0546361384c12a745ec843a6df5f8</HockeyAppResourceId>
+    <PublishUrl>T:\install files\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\cns-server01\install files\</InstallUrl>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F915512D0E46B4907E98DBB865DB61FDBDC0E4C1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>IT Ticketing System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>
+    </TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>CNS_IT_Ticketing_System_v1._0.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalAccess.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdditionalAccess.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminTickets.Designer.cs">
+      <DependentUpon>AdminTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chat.Designer.cs">
+      <DependentUpon>chat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chater.cs">
+      <DependentUpon>Chater.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Chater.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Chater.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="ChatUsers.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChatUsers.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="CloseTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloseTicket.Designer.cs">
+      <DependentUpon>CloseTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="email.cs" />
+    <Compile Include="EquipRe.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EquipRe.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EscalateReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EscalateReturn.Designer.cs">
+      <DependentUpon>EscalateReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Password.Designer.cs">
+      <DependentUpon>New Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ITVersion.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ITVersion.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="New Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New Ticket.Designer.cs">
+      <DependentUpon>New Ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="More Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="More Details.Designer.cs">
+      <DependentUpon>More Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewReturn.Designer.cs">
+      <DependentUpon>NewReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnData.Designer.cs">
+      <DependentUpon>ReturnData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Savedates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Savedates.Designer.cs">
+      <DependentUpon>Savedates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketsDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicketsDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTicket.Designer.cs">
+      <DependentUpon>UpdateTicket.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminTickets.resx">
+      <DependentUpon>AdminTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chat.resx">
+      <DependentUpon>chat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseTicket.resx">
+      <DependentUpon>CloseTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EscalateReturn.resx">
+      <DependentUpon>EscalateReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Password.resx">
+      <DependentUpon>New Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Ticket.resx">
+      <DependentUpon>New Ticket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="More Details.resx">
+      <DependentUpon>More Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewReturn.resx">
+      <DependentUpon>NewReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReturnData.resx">
+      <DependentUpon>ReturnData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Savedates.resx">
+      <DependentUpon>Savedates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTicket.resx">
+      <DependentUpon>UpdateTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AdditionalAccess.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>AdditionalAccess.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdditionalAccess.dbml.layout">
+      <DependentUpon>AdditionalAccess.dbml</DependentUpon>
+    </None>
+    <None Include="Chater.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Chater.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Chater.dbml.layout">
+      <DependentUpon>Chater.dbml</DependentUpon>
+    </None>
+    <None Include="ChatUsers.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ChatUsers.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ChatUsers.dbml.layout">
+      <DependentUpon>ChatUsers.dbml</DependentUpon>
+    </None>
+    <None Include="EquipRe.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>EquipRe.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EquipRe.dbml.layout">
+      <DependentUpon>EquipRe.dbml</DependentUpon>
+    </None>
+    <None Include="IT Ticketing System_TemporaryKey.pfx" />
+    <None Include="ITVersion.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ITVersion.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ITVersion.dbml.layout">
+      <DependentUpon>ITVersion.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TicketsDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>TicketsDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TicketsDB.dbml.layout">
+      <DependentUpon>TicketsDB.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0474.png" />
+    <Content Include="favicon2.ico" />
+    <None Include="Resources\favicon2.ico" />
+    <None Include="Resources\NotificationImage.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

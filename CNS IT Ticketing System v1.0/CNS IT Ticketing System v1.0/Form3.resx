@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Hello and welcome to the Critical Nurse staffing IT ticketing program. This program is to help your IT team manage, prioritize, and document any and all of your IT related issues. 
+
+This ticketing system is ONLY to be used for IT issues and by agents with access to a laptop/desktop computer issued by the company. If you do have any issues that are non-IT related and you create a ticket here, it WILL be deleted. We apologize for any inconvenience this may cause. 
+
+If you have any questions Non-IT related please contact your manager. 
+
+Here is how to create a ticket and what happens when you do: 
+
+                         Step 1: On the main page once the program is launched click on "New Ticket"
+                         Step 2: Fill in the details for your email, phone number, and ticket type. 
+                         Step 3: Fill in the details for your ticket
+                         Step 4: Click Submit. 
+
+Once you submit the ticket the IT team will be with you very shortly on getting your issue resolved. You will get an email confirming this. You can use the Ticket ID to reference this issue with your IT team. Please give the IT team a MINIMUM of 15 minutes for the ticket to show up.
+
+Note: If you click on Cancel ALL of your previously entered details will be lost. 
+
+You do have multiple Ticket type options to create a ticket. Here is a breakdown of each in the most simple of forms:
+
+
+
+----------------------------------------------AD Email/Computer Login Reset----------------------------------------------
+This type of issue is selected when you are locked out of your @cnscares email account OR your computer due to a password issue. 
+Because of the nature of this issue, you may need to enter the ticket for another agent. You will need the following:
+
+1) Name of Agent needing reset
+2) Username of Agent needing reset
+3) The best way to contact that agent (EXE: Email and\or Phone call)
+4) The contact information for that agent (EXE: the phone number or email address)
+
+If there are any additional notes you have you can place them in the more details section. 
+
+
+
+
+---------------------------------------------------------------------Desktop-----------------------------------------------------------
+This option is used for any general issues with a workstation/desktop. (Not a laptop). You will need the following:
+
+CNS-ID found on the device OR by going to system information and looking at the computer name. 
+Details of issue-Very Important
+
+
+
+
+---------------------------------------------------------------------Email---------------------------------------------------------------------
+This option is used for any general issues with your email account. You would only file a ticket of this nature for yourself. For this option, you will ned the following information:
+
+Details
+Error (If Any)
+
+
+
+
+----------------------------------------------------------------------Fax----------------------------------------------------------------------
+This option is to report a fax issue in which you get an error. IF you have an issue with fax it may be a signal issue so please try again 30 minutes later BEFORE filing a ticket. 
+If you file a ticket for error 54 it is a line quality issue and may be closed depending on the situation. To file a ticket for fax, you will need the following:
+
+How was the fax sent (Incoming or Outgoing)
+What was the error it gave you
+Any additional details. 
+
+
+
+
+--------------------------------------------------------------Kinnser Password Reset---------------------------------------------------
+This is to file a ticket in which you need to have your password for Kinnser reset. For other Kinnser related issues please refer requests to the Case Manager, Case Manager Assistant, OR Debbie Maynard. 
+To file a ticket for this you will need the following information: 
+
+1) Name of Agent needing reset
+2) Username of Agent needing reset
+3) The best way to contact that agent (EXE: Email and\or Phone call)
+4) The contact information for that agent (EXE: the phone number or email address)
+
+If there are any additional notes you have you can place them in the more details section. 
+
+
+
+
+---------------------------------------------------------------------Laptop-----------------------------------------------------------
+This option is used for any general issues with a Laptop. (Not a Desktop). You will need the following:
+
+CNS-ID found on the device OR by going to system information and looking at the computer name. 
+Details of issue-Very Important
+
+
+
+
+---------------------------------------------------------------------Phone-----------------------------------------------------------
+This option is used for any general issues with a Company issues phone. You will need the following:
+
+Type of phone
+Details of issue-Very Important
+Errors (If Any)
+
+
+
+
+---------------------------------------------------------------------Printer/Scanner-----------------------------------------------------------
+This option is used for a printer/scanner that is connected to a company issued Laptop/Desktop. You will need this information:
+
+Who Owns the printer (CNS, yourself, someone else, etc.)
+Any Steps you have tried to fix the issue
+More details (Very important)
+
+
+
+
+---------------------------------------------------------------------Tablet-----------------------------------------------------------
+This option is used for any general issues with a Company issued Tablet. This must first be troubleshooted by the Case Manager/Case Manager assistance before the ticket is created. You will need this information when filing the ticket:
+
+Errors( If Any)
+More details---Very important
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAUAAAAAAAAAAAAAAAEAAAAB
+        AADMMwAA/2YAAMyZAADMzAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQAAAQICAgICAgICAgICAgEAAAECAwMD
+        AwMDAwMDAwIBAAABAgMEBQQEBAUEBAMCAQAAAQIDBAUEBAQFBAQDAgEAAAECAwQFBAQEBQQEAwIBAAAB
+        AgMEBQQEBAUEBAMCAQAAAQIDBAUEBAQFBAQDAgEAAAECAwQFBAQEBQQEAwIBAAABAgMEBQQEBAUEBAMC
+        AQAAAQIDBAUEBQUFBQUDAgEAAAECAwMDAwMDAwMDAwIBAAABAgICAgICAgICAgICAQAAAQEBAQEBAQEB
+        AQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8=
+</value>
+  </data>
+</root>
